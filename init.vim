@@ -22,10 +22,8 @@ Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+filetype plugin on			 " required
 filetype plugin indent on    " required
-
-" Jedi-Vim config for Python
-" let g:jedi#environment_path = "venv"
 
 " NERDTree config
 
@@ -56,7 +54,3 @@ set titlestring=%t
 set title
 set ruler
 set confirm
-set tabstop=4
-set shiftwidth=4
-autocmd Filetype css setlocal tabstop=4 shiftwidth=4
-
